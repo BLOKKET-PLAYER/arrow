@@ -19,3 +19,6 @@ input.onButtonPressed(Button.B, function () {
         basic.showIcon(IconNames.Heart)
     }
 })
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    basic.showString("12345678910")
+})
